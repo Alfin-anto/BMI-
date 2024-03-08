@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300&family=Libre+Franklin:ital,wght@1,100&family=Open+Sans:wght@300&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto",sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 114, 161);
+}
+.bmi-calculator {
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px 10px rgba(207, 56, 56, 0.1); */
+  display: flex;
+  box-shadow: 3px 3px 5px 9px rgb(41, 45, 140),3px 3px 3px 3px rgb(62, 92, 213);
+
+}
+.box{
+  width: 350px;
+   background-image: url('https://www.shutterstock.com/image-vector/diet-plan-checklist-illustration-people-260nw-2343502621.jpg'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0 0 rgb(255, 250, 250),0 0 0 2 black;
+  margin-left: 20PX;
+}
+.data{
+  flex: 1;
+  padding: 15;
+ 
+}
+h1{
+  text-shadow: 0px 1px 2px  black,0px 2px 3px  rgb(0, 138, 166);
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(14, 75, 100);
+}
+.input-container{
+  margin-bottom: 15px;
+
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+  border-radius: 4px;
+
+}
+input{
+  width:  100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+button{
+  background-color: rgb(35, 109, 238);
+  color: white;
+  border-radius: 4px;
+  border: none;
+padding: 10px 20px ;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 10px;
+  box-shadow: 2px 2px 2px blue, 2px 2px 2px blue, 2px 2px 2px blue;
+}
+button:hover{
+  background-color: #1f1c1c;
+
+}
+.result{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgb(79, 79, 243);
+  border-radius: 4px;
+}
+.result p{
+  margin: 10px 0;
+  color: #555;
+
+}
+.result p:first-child{
+  color: rgb(41, 153, 198);
+  font-weight: bold;
+}
+.error{
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
